@@ -1,0 +1,21 @@
+{
+    "name": "xhs/auth",
+    "description": "auth",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xhs",
+            "email": "775079852@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xhs\\Auth\\": "auth/"
+        }
+    }
+}
